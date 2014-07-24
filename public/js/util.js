@@ -82,10 +82,11 @@
         return this;
       };
       above = function(width, fn) {
-        return setListener({
+        setListener({
           type: "all",
           min: width
         }, fn);
+        return this;
       };
       between = function(from, to, fn) {
         setListener({
