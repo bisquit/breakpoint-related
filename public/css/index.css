@@ -3,9 +3,101 @@ body {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 76%;
 }
-h1 {
+#main {
   font-size: 145%;
   text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.btns {
+  margin-top: 10px;
+}
+.btns > * {
+  font-size: 13px;
+  padding: 9.945px 21.879px;
+  -webkit-border-radius: 3.000002307694083px;
+  -moz-border-radius: 3.000002307694083px;
+  -o-border-radius: 3.000002307694083px;
+  -ms-border-radius: 3.000002307694083px;
+  border-radius: 3.000002307694083px;
+  background-color: #00a6fc;
+  color: #fff;
+  color: rgba(255,255,255,0.95);
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 190px;
+  margin-bottom: 10px;
+}
+.btns > *:hover,
+.btns > *:focus {
+  background-color: #009eef;
+  color: #f7f7f7;
+  color: rgba(247,247,247,0.95);
+}
+.btns > *:active {
+  background-color: #0095e3;
+}
+.btns .removeAll {
+  font-size: 13px;
+  padding: 9.945px 21.879px;
+  -webkit-border-radius: 3.000002307694083px;
+  -moz-border-radius: 3.000002307694083px;
+  -o-border-radius: 3.000002307694083px;
+  -ms-border-radius: 3.000002307694083px;
+  border-radius: 3.000002307694083px;
+  background-color: #ddd;
+  color: #494949;
+  color: rgba(73,73,73,0.95);
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.btns .removeAll:hover,
+.btns .removeAll:focus {
+  background-color: #d2d2d2;
+  color: #474747;
+  color: rgba(71,71,71,0.95);
+}
+.btns .removeAll:active {
+  background-color: #c7c7c7;
+}
+.btns .init {
+  font-size: 13px;
+  padding: 9.945px 21.879px;
+  -webkit-border-radius: 3.000002307694083px;
+  -moz-border-radius: 3.000002307694083px;
+  -o-border-radius: 3.000002307694083px;
+  -ms-border-radius: 3.000002307694083px;
+  border-radius: 3.000002307694083px;
+  background-color: #f2a34f;
+  color: #494949;
+  color: rgba(73,73,73,0.95);
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.btns .init:hover,
+.btns .init:focus {
+  background-color: #f19b40;
+  color: #474747;
+  color: rgba(71,71,71,0.95);
+}
+.btns .init:active {
+  background-color: #f09331;
 }
 .above {
   padding-top: 0;

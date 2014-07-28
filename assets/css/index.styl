@@ -4,9 +4,23 @@ body
   font-family Verdana, Geneva, sans-serif
   font-size 76%
 
-h1
+#main
   font-size 145%
   text-align center
+
+h1
+  margin-bottom 20px
+
+.btns
+  margin-top 10px
+  > *
+    simple-button()
+    width: 190px
+    margin-bottom 10px
+  .removeAll
+    simple-button(#ddd)
+  .init
+    simple-button(orange)
 
 .above
   padding-top 0
